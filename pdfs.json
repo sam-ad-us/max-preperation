@@ -1,0 +1,14 @@
+[
+  {"exam": "Class 10", "board": "CBSE", "subject": "Maths", "year": "2023", "fileUrl": "/pdfs/cbse_10_math_2023.pdf"},
+  {"exam": "Class 10", "board": "CBSE", "subject": "Science", "year": "2023", "fileUrl": "/pdfs/cbse_10_science_2023.pdf"},
+  {"exam": "Class 10", "board": "CBSE", "subject": "English", "year": "2023", "fileUrl": "/pdfs/cbse_10_english_2023.pdf"},
+  {"exam": "NEET", "board": "NTA", "subject": "Physics", "year": "2022", "fileUrl": "/pdfs/neet_physics_2022.pdf"},
+  {"exam": "NEET", "board": "NTA", "subject": "Chemistry", "year": "2022", "fileUrl": "/pdfs/neet_chemistry_2022.pdf"},
+  {"exam": "NEET", "board": "NTA", "subject": "Biology", "year": "2022", "fileUrl": "/pdfs/neet_biology_2022.pdf"},
+  {"exam": "JEE Mains", "board": "NTA", "subject": "Maths", "year": "2022", "fileUrl": "/pdfs/jee_mains_maths_2022.pdf"},
+  {"exam": "JEE Mains", "board": "NTA", "subject": "Physics", "year": "2022", "fileUrl": "/pdfs/jee_mains_physics_2022.pdf"},
+  {"exam": "JEE Mains", "board": "NTA", "subject": "Chemistry", "year": "2022", "fileUrl": "/pdfs/jee_mains_chemistry_2022.pdf"},
+  {"exam": "UPSC", "board": "UPSC", "subject": "Prelims", "year": "2021", "fileUrl": "/pdfs/upsc_prelims_2021.pdf"},
+  {"exam": "UPSC", "board": "UPSC", "subject": "Mains", "year": "2021", "fileUrl": "/pdfs/upsc_mains_2021.pdf"},
+  {"exam": "UPSC", "board": "UPSC", "subject": "Optional", "year": "2021", "fileUrl": "/pdfs/upsc_optional_2021.pdf"}
+] 

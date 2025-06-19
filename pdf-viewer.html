@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View PDF - EduPYQ</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <svg width="120" height="40"><text x="0" y="30" font-size="32" font-family="Arial" fill="#2d3748">EduPYQ</text></svg>
+    </div>
+    <nav class="nav">
+      <button id="loginBtn" class="nav-btn">Login</button>
+      <button id="signupBtn" class="nav-btn">Sign Up</button>
+    </nav>
+  </header>
+  <main>
+    <div class="ad-slot ad-top">AdSense Ad Here</div>
+    <section class="pdf-viewer-section">
+      <div id="pdfViewer" class="pdf-viewer"></div>
+      <button id="downloadBtn" class="download-btn">Download PDF</button>
+      <div class="ad-slot ad-below-download">AdSense Ad Here</div>
+    </section>
+    <section class="suggested-pdfs">
+      <h3>Suggested PDFs</h3>
+      <div id="suggestedList" class="suggested-list"></div>
+      <div class="ad-slot ad-footer">AdSense Ad Here</div>
+    </section>
+  </main>
+  <div id="authModal" class="modal hidden"></div>
+  <script src="/src/js/pdf-viewer.js"></script>
+  <script src="/src/js/auth.js"></script>
+</body>
+</html> 

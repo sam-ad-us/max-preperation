@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EduPYQ - Previous Year Question Papers for Classes 6-12, Competitive Exams, and University Entrance Exams. Download PDFs for CBSE, ICSE, NEET, JEE, UPSC, and more.">
+  <title>EduPYQ - Previous Year Question Papers</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <svg width="120" height="40"><text x="0" y="30" font-size="32" font-family="Arial" fill="#2d3748">EduPYQ</text></svg>
+    </div>
+    <nav class="nav">
+      <button id="uploadBtn" class="nav-btn" style="display:none;">Upload PDF</button>
+      <button id="myUploadsBtn" class="nav-btn" style="display:none;">My Uploads</button>
+      <button id="loginBtn" class="nav-btn">Login</button>
+      <button id="signupBtn" class="nav-btn">Sign Up</button>
+    </nav>
+  </header>
+  <main>
+    <section class="search-section">
+      <input type="text" id="searchInput" placeholder="Search exams, subjects, years..." autocomplete="off" />
+    </section>
+    <section class="categories">
+      <div class="category-card" data-category="school">
+        <h2>School Classes (6-12)</h2>
+        <p>CBSE, ICSE, BSEB, and more</p>
+      </div>
+      <div class="category-card" data-category="competitive">
+        <h2>Competitive Exams</h2>
+        <p>NEET, JEE, UPSC, SSC, CUET, etc.</p>
+      </div>
+      <div class="category-card" data-category="university">
+        <h2>University Entrance Exams</h2>
+        <p>Top Indian Universities</p>
+      </div>
+    </section>
+    <section id="pdfList" class="pdf-list"></section>
+  </main>
+  <div id="authModal" class="modal hidden"></div>
+  <script src="/src/js/main.js"></script>
+  <script src="/src/js/ui.js"></script>
+  <script src="/src/js/auth.js"></script>
+</body>
+</html> 
